@@ -1,0 +1,12 @@
+{
+  "name": "cyborg-w-srodku",
+  "version": "1.0.0",
+  "description": "Gra śledcza na telefony o serwerach WWW (Usługi sieciowe, wykład 7)",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "serve": "python3 -m http.server 8080",
+    "e2e": "node tests/e2e.mjs"
+  }
+}
